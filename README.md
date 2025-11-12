@@ -51,4 +51,3 @@ This repository is updated regularly to ensure the content remains current and r
 - Ensure all information is accurate and from reliable sources
 - Include references or links to original sources
 - Follow the existing formatting structure
-"# Latest-AI-News" 
