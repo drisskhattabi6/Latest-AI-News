@@ -3,7 +3,7 @@
 
 This repository serves as a curated collection of the most recent and significant developments in artificial intelligence. The goal is to provide AI enthusiasts, researchers, students, and professionals with a centralized resource to stay updated on breakthroughs, research papers, product launches, and industry trends.
 
-## 📚 Contents
+## Contents
 
 This repository includes:
 
@@ -29,9 +29,6 @@ This repository includes:
 - **Real-time Updates**: Refresh data with a single click
 - **Image Support**: Displays source images when available
 
-## 🔄 Updates
-
-This repository is updated regularly to ensure the content remains current and relevant. Check back frequently or watch the repository to be notified of new updates.
 
 ## 💻 Technical Details
 
@@ -46,8 +43,3 @@ This repository is updated regularly to ensure the content remains current and r
   - And more...
 - **Automatic Content Processing**: Handles different date formats and content structures
 - **Parallel Processing**: Uses concurrent fetching for faster data retrieval
-
-### Contribution Guidelines
-- Ensure all information is accurate and from reliable sources
-- Include references or links to original sources
-- Follow the existing formatting structure

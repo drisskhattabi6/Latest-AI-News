@@ -1,25 +1,24 @@
-import streamlit as st
-import pandas as pd
-from datetime import datetime, timedelta
-from fetch_data import main
-from PIL import Image
-import base64
 import os
+import base64
+import pandas as pd
+import streamlit as st
+from fetch_data import main
+from datetime import timedelta
 
-# Yerel placeholder görüntüyü yüklemek için fonksiyon
+
 def get_base64_encoded_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode('utf-8')
 
-# Placeholder görüntü yolu - kendi dosya yolunuzu buraya yazın
-PLACEHOLDER_IMAGE_PATH = "imgs/placeholder.jpeg"  # Bu dosyanın Python kodunuzla aynı dizinde olduğunu varsayıyorum
 
-# Görüntüyü base64 formatına dönüştür (eğer dosya mevcutsa)
+# Placeholder image
+PLACEHOLDER_IMAGE_PATH = "imgs/placeholder.jpeg"  
+
+
 if os.path.exists(PLACEHOLDER_IMAGE_PATH):
     img_base64 = get_base64_encoded_image(PLACEHOLDER_IMAGE_PATH)
     PLACEHOLDER_IMAGE = f"data:image/jpeg;base64,{img_base64}"
 else:
-    # Dosya bulunamazsa yedek olarak online bir görsel kullan
     PLACEHOLDER_IMAGE = "https://img.freepik.com/free-vector/artificial-intelligence-ai-robot-server-room-digital-technology-banner_39422-794.jpg"
     st.warning(f"Placeholder image not found at {PLACEHOLDER_IMAGE_PATH}. Using fallback image.")
 

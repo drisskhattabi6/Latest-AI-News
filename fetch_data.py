@@ -1,12 +1,12 @@
+import re
+import ssl
+import warnings
+import requests
 import feedparser
 import pandas as pd
-from datetime import datetime, timedelta
-import ssl
-from bs4 import BeautifulSoup
-import warnings
 import concurrent.futures
-import re
-import requests
+from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 
 warnings.filterwarnings("ignore")
 
